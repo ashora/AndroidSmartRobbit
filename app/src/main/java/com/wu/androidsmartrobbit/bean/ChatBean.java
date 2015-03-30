@@ -7,7 +7,6 @@ import java.util.Date;
  * 涉及到性能优化，用公共访问权限的变量来访问比用get(),set()方法访问速度会有提升
  */
 public class ChatBean {
-    public String name;
     public String msg;
     public Type type;
     public Date date;
@@ -28,7 +27,6 @@ public class ChatBean {
     @Override
     public String toString() {
         return "ChatBean{" +
-                "name='" + name + '\'' +
                 ", msg='" + msg + '\'' +
                 ", type=" + type +
                 ", date=" + date +

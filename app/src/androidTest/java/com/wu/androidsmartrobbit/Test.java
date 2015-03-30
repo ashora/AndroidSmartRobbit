@@ -8,6 +8,7 @@ import com.wu.androidsmartrobbit.utils.HttpUtils;
 
 /**
  * Created by wu on 15-3-30.
+ * 这是一个测试类，用来测试httpUtils类的正确性
  */
 public class Test extends InstrumentationTestCase {
 
